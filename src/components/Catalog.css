@@ -1,0 +1,29 @@
+.CatalogProducts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .CatalogProduct {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .CatalogProduct img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .Price {
+    background-color: #ff6200;
+    color: white;
+    padding: 5px;
+  }
+  
+  h3 {
+    color: #333;
+    font-size: 18px;
+  }
+  
